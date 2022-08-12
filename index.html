@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css"> 
+    <title>Calculadora</title>
+</head>
+<body>
+    <section class="bg">
+        <div class="descricao">
+            <p>Projeto Calculadora</p>
+        </div>
+        <div class="calculadora">
+        <div class="result">
+            <p class="result" id="result"></p>
+        </div>
+        <div class="teclado">
+            <table>
+                <tr>
+                    <td><button id="limpar" class="button" value="c" >C</button></td>
+                    <td><button id="voltar" class="button" ><<</button></td>
+                    <td> <button id="operadorDivisao" class="button" value="/">/</button ></td>
+                    <td><button id="operadorMultiplicacao" class="button" value="*">*</button ></td>
+                    
+                </tr>
+
+                <tr>
+                    <td><button id="tecla7" class="button" value="7">7</button ></td>
+                    <td><button id="tecla8" class="button" value="8">8</button></td>
+                    <td> <button id="tecla9" class="button" value="9">9</button ></td>
+                    <td><button id="operadorSubtrair" class="button" value="-">-</button ></td>
+                </tr>
+
+                <tr>
+                    <td><button id="tecla4" class="button" value="4">4</button ></td>
+                    <td><button id="tecla5" class="button" value="5"> 5 </button ></td>
+                    <td><button id="tecla6" class="button" value="6">6</button ></td>
+                    <td> <button id="operadorAdicionar" class="button" value="+">+</button ></td>
+                </tr>
+
+                <tr>
+                    <td><button id="tecla1" class="button" value="1">1</button ></td>
+                    <td><button id="tecla2" class="button" value="2">2</button ></td>
+                    <td><button id="tecla3" class="button" value="3">3</button ></td>
+                    <td rowspan="2"><button id="igual" class="button btn-i" value="=">=</button ></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"> <button id="tecla0" class="button btn" value="0">0</button ></td>
+                    <td><button id="decimal" class="button">;</button ></td>
+                </tr>
+       
+            </table>
+
+        </div>
+        </div>
+        <div class="footer">
+            <p>Desenvolvido por Dayane Rodrigues</p>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
