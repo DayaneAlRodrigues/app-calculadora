@@ -9,6 +9,7 @@
 
 #### É um projeto simples, mas que foi possível aplicar muitos conceitos que tenho aprendido até o momento na linguagem JS.
 
+![](https://github.com/DayaneAlRodrigues/app-calculadora/blob/main/calculadora.PNG)
 
 
 
