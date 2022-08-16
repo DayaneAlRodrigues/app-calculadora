@@ -144,6 +144,3 @@ const mapearTeclado = (evento) => {
     
 }
 document.addEventListener('keydown', mapearTeclado);
-
-
-
